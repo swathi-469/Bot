@@ -37,51 +37,6 @@ $ cd pose-estimation-detection
 $ pip3 install -r requirements.txt
 ```
 
-### Pose Estimation with realtime webcam feed
-
-```
-$ python run_webcam.py --model=mobilenet_thin --resize=432x368 --camera=0
-```
-
-Run the above command to start pose estimation with the onboard webcam.
-
-## References
-
-### OpenPose
-
-[1] https://github.com/CMU-Perceptual-Computing-Lab/openpose
-
-[2] Training Codes : https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation
-
-[3] Custom Caffe by Openpose : https://github.com/CMU-Perceptual-Computing-Lab/caffe_train
-
-[4] Keras Openpose : https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation
-
-[5] Keras Openpose2 : https://github.com/kevinlin311tw/keras-openpose-reproduce
-
-### Lifting from the deep
-
-[1] Arxiv Paper : https://arxiv.org/abs/1701.00295
-
-[2] https://github.com/DenisTome/Lifting-from-the-Deep-release
-
-### Mobilenet
-
-[1] Original Paper : https://arxiv.org/abs/1704.04861
-
-[2] Pretrained model (Pose estimation) : https://github.com/tensorflow/models/blob/master/slim/nets/mobilenet_v1.md
-
-[3] Retrained model (Pose detection) : https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/
-
-### Libraries
-
-[1] Tensorpack : https://github.com/ppwwyyxx/tensorpack
-
-### Tensorflow Tips
-
-[1] Freeze graph : https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/tools/freeze_graph.py
-
-[2] Optimize graph : https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2
 
 
 
